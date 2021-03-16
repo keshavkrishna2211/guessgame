@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas</title>
+</head>
+<body>
+  <canvas id="canvas">
+  </canvas>
+  
+</body>
+<script>
+  const canvas=document.getElementById('canvas')
+  const ctx=canvas.getContext('2d')
+  
+  let x=50
+  let y=50
+  x=43+7
+  y=25*3
+  
+  ctx.fillStyle='green'
+  ctx.fillRect(10,10,x,y)
+</script>
+</html>
